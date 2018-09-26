@@ -1,3 +1,3 @@
-project('nix-vendor', 'c')
+project('vendix', 'c')
 
-shared_library('nixvendor', 'nix-vendor.c', install: true)
+shared_library('vendix', 'vendix.c', install: true)
